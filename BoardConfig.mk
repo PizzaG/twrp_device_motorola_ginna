@@ -94,9 +94,9 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
 # Prebuilt Kernel- PizzaG
-TARGET_PREBUILT_KERNEL := device//motorola/ginna/prebuilt/Image.gz-dtb
-TARGET_PREBUILT_DTB := device//motorola/ginna/prebuilt/dtb.img
-BOARD_PREBUILT_DTBOIMAGE := device//motorola/ginna/prebuilt/dtbo.img
+TARGET_PREBUILT_KERNEL := device/motorola/ginna/prebuilt/Image.gz-dtb
+TARGET_PREBUILT_DTB := device/motorola/ginna/prebuilt/dtb.img
+BOARD_PREBUILT_DTBOIMAGE := device/motorola/ginna/prebuilt/dtbo.img
 BOARD_INCLUDE_RECOVERY_DTBO := true
 
 # Partitions
