@@ -1,4 +1,0 @@
-ro.display.series=motorola e
-ro.product.board=msm8953
-ro.board.platform=msm8953
-vendor.gatekeeper.disable_spu=true
